@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../css/calculadoraDeber.css">
+    <script src="../js/calculadoraDeber.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 style="color: darkgoldenrod;"><strong>Calculadora</strong></h1>
+    </header>
+    <nav></nav>
+    <section>
+        <!-- Resultado -->
+        <div>
+            <label id="txtResultado">Resultado: </label>
+            <label id="labelResultado"></label>
+        </div>
+
+        <!-- Numeros -->
+        <div><h4>Números</h4></div>
+        <div class="btn_numeros">
+            <button onclick="leerNumero(1)">1</button>
+            <button onclick="leerNumero(2)">2</button>
+            <button onclick="leerNumero(3)">3</button>
+            <button onclick="leerNumero(4)">4</button>
+            <button onclick="leerNumero(5)">5</button>
+            <button onclick="leerNumero(6)">6</button>
+            <button onclick="leerNumero(7)">7</button>
+            <button onclick="leerNumero(8)">8</button>
+            <button onclick="leerNumero(9)">9</button>
+            <button onclick="leerNumero(0)">0</button>
+        </div>
+
+        <!-- Operaciones -->
+        <div><h4>Operaciones</h4></div>
+        <div class="btn_operaciones">
+            <button onclick="operar('+')">+</button>
+            <button onclick="operar('-')">-</button>
+            <button onclick="operar('*')">x</button>
+            <button onclick="operar('/')">/</button>
+            <button onclick="operar('=')">=</button>
+        </div>
+
+    </section>
+    <footer></footer>
+</body>
+
+</html>

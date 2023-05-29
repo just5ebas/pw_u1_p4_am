@@ -1,0 +1,9 @@
+.btn_operaciones button {
+    margin-left: 30px;
+    padding-inline: 15px;
+}
+
+.btn_numeros button{
+    margin-left: 5px;
+    padding-inline: 10px;
+}
